@@ -7,6 +7,6 @@ services:
     database:
       image: redis
     myapp:
-      image: skatta3/myhelloworld
+      image: skatta3/helloworld
       ports:
         - "9000:8080"
